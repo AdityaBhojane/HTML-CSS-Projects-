@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./assets/home.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/* navbar styling */
+
+a{
+  text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px; 
+}
+
+
+nav ul li a{
+    color:#ffc233 ;
+    margin: 20px;
+    font-family: 'red rose';
+    font-weight: 400;
+    font-size: 18px;
+}
+nav ul li img{
+    cursor: pointer;
+}
+button.order{
+    background-color: #ff505f;
+    border: none;
+    padding: 8px 30px;
+    font-weight: 700;
+    font-family: "red rose";
+    font-size: 15px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+button.order:hover{
+    background-color: rgb(153, 153, 153);
+}
+nav ul li a:hover{
+    color: #ffffff;
+}
+/* main section */
+
+section h1{
+    color: white;
+    /* margin-top: 0 auto; */
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    color:#ffc233;
+    font-weight: 400;
+    font-size:70px;
+    line-height: 114px;
+    
+}
+button.read{
+    background-color: #ff505f;
+    border: none;
+    font-family: "red rose";
+    font-size: 34px;
+    cursor: pointer;
+    font-weight: 900;
+    padding: 15px 20px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+section{
+    text-align: center;
+}
+button.read:hover{
+    background-color: #000000;
+}
+/* footer */
+footer {
+    text-align: end; 
+}
+footer img{
+    height: 110px;
+    margin: 30px;
+}
